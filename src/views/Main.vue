@@ -28,7 +28,7 @@
           <p>для празднования небольших семейных торжеств и конечно, свадеб.</p>
         </div>
         <div class="main-about-info-3">
-          <router-link to="/contacts">Узнать больше</router-link>
+          <router-link to="/contacts.html">Узнать больше</router-link>
         </div>
       </div>
       <div class="contacts-time-img">
@@ -56,7 +56,7 @@
           <p>А также, у нас можно самостоятельно собрать пиццу себе по вкусу!</p>
         </div>
         <div class="main-about-info-3">
-          <router-link to="/pizza">Выбрать пиццу</router-link>
+          <router-link to="/pizza.html">Выбрать пиццу</router-link>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
           <p>Горчие блюда, различные закуски и дессерты на ваш выбор.</p>
         </div>
         <div class="main-about-info-3">
-          <router-link to="/menu">Ознакомиться с меню</router-link>
+          <router-link to="/menu.html">Ознакомиться с меню</router-link>
         </div>
       </div>
       <div class="contacts-time-img">

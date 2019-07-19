@@ -26,15 +26,15 @@
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
-          <router-link to="/menu">МЕНЮ</router-link>
+          <router-link to="/menu.html">МЕНЮ</router-link>
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
-          <router-link to="/pizza">ПИЦЦА</router-link>
+          <router-link to="/pizza.html">ПИЦЦА</router-link>
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
-          <router-link to="/contacts">КОНТАКТЫ</router-link>
+          <router-link to="/contacts.html">КОНТАКТЫ</router-link>
         </div>
         <span class="span2"></span>
       </div>

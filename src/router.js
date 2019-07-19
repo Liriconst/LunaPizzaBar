@@ -17,24 +17,28 @@ export default new Router({
 
   routes: [
     {
-      path: '/menu',
+      path: '/',
+      name: 'main',
+      component: Main
+    },
+    {
+      path: '/menu.html',
       name: 'menu',
       component: Menu
     },
     {
-      path: '/pizza',
+      path: '/pizza.html',
       name: 'pizza',
       component: Pizza
     },
     {
-        path: '/contacts',
+        path: '/contacts.html',
         name: 'contacts',
         component: Contacts
     },
     {
       path: '*',
-      name: 'main',
-      component: Main
+      redirect: "/"
     },
   ]
 })
