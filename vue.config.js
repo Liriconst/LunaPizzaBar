@@ -15,9 +15,9 @@ module.exports = {
                         indexPath: path.join(__dirname, 'dist', 'index.html'),
                         routes: [
                             "/",
-                            "/pizza",
-                            "/menu",
-                            "/contacts",
+                            "/pizza.html",
+                            "/menu.html",
+                            "/contacts.html",
                         ],
                         minify: {
                             collapseBooleanAttributes: true,
@@ -33,7 +33,7 @@ module.exports = {
 
                                 let parts = renderedRoute.route.split("/");
 
-                                renderedRoute.outputPath = path.join(__dirname, 'dist', parts[1] + ".html");
+                                renderedRoute.outputPath = path.join(__dirname, 'dist', parts[1]);
                             }
 
                             return renderedRoute;
