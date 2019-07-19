@@ -139,6 +139,12 @@
     margin-top: 0;
   }
 
+  .ingredients-container {
+    margin-top: 49px;
+    padding-top: 49px;
+    border-top: 2px solid #4abbd5;
+  }
+
   .ingredients-container >>> .menu-section-body {
     display: flex;
   }
