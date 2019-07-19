@@ -1,0 +1,76 @@
+{
+  "cold": [
+    {
+      "title": "Овощное ассорти",
+      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "price": "220.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "330"
+    },
+    {
+      "title": "Мясное ассорти",
+      "image": "/static/img/menu/Mjacnoe accorti.jpg",
+      "price": "350.00",
+      "description": "язык говяжий, буженина, ветчина, колбаса с/к, колбаса п/к, зелень",
+      "mass": "300"
+    },
+    {
+      "title": "Рыбное ассорти",
+      "image": "/static/img/menu/Assorti rubnoe.jpg",
+      "price": "400.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "222"
+    },
+    {
+      "title": "Закуска к водочке",
+      "image": "/static/img/menu/Zakycka k vodke.jpg",
+      "price": "200.00",
+      "description": "маринованные опята, огурцы мар., томаты черри",
+      "mass": "240"
+    },
+    {
+      "title": "Грибное лукошко",
+      "image": "/static/img/menu/Gribhoe lukochko.jpg",
+      "price": "200.00",
+      "description": "рибы маринованные грузди, опята, маслята",
+      "mass": "180"
+    },
+    {
+      "title": "Сельдь с луком",
+      "image": "/static/img/menu/Celdi c lukom.jpg",
+      "price": "400.00",
+      "description": "сельдь, картофель отварной, лук",
+      "mass": "210"
+    },
+    {
+      "title": "Язык с хреном",
+      "image": "/static/img/menu/Jzuk c xrenom.jpg",
+      "price": "200.00",
+      "description": "язык говяжий, хрен",
+      "mass": "150"
+    },
+    {
+      "title": "Маслины",
+      "image": "/static/img/menu/Maclini.jpg",
+      "price": "70.00",
+      "description": "",
+      "mass": "50"
+    },
+    {
+      "title": "Оливки",
+      "image": "/static/img/menu/Olivki.jpg",
+      "price": "70.00",
+      "description": "",
+      "mass": "50"
+    }
+  ],
+  "salads": [
+    {
+      "title": "Овощное ассорти",
+      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "price": "220.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "330"
+    }
+  ]
+}

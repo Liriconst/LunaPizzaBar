@@ -14,6 +14,7 @@
 </template>
 
 <style>
+
   .main {
     display: flex;
     justify-content: flex-start;
