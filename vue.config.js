@@ -30,13 +30,13 @@ module.exports = {
                         postProcess (renderedRoute) {
 
                             if (renderedRoute.route !== "/") {
-                                
+
                                 let parts = renderedRoute.route.split("/");
-                                
+
                                 renderedRoute.outputPath = path.join(__dirname, 'dist', parts[1] + ".html");
                             }
 
-                            return renderedRoute
+                            return renderedRoute;
                         },
                         
                         renderer: new Renderer({
