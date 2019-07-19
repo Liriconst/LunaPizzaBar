@@ -56,7 +56,7 @@
           <p>А также, у нас можно самостоятельно собрать пиццу себе по вкусу!</p>
         </div>
         <div class="main-about-info-3">
-          <router-link to="/contacts">Выбрать пиццу</router-link>
+          <router-link to="/pizza">Выбрать пиццу</router-link>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
           <p>Горчие блюда, различные закуски и дессерты на ваш выбор.</p>
         </div>
         <div class="main-about-info-3">
-          <router-link to="/contacts">Ознакомиться с меню</router-link>
+          <router-link to="/menu">Ознакомиться с меню</router-link>
         </div>
       </div>
       <div class="contacts-time-img">

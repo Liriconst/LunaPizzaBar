@@ -30,7 +30,7 @@
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
-          <router-link to="/pizza">ПИЦЦЫ</router-link>
+          <router-link to="/pizza">ПИЦЦА</router-link>
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
