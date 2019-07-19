@@ -39,6 +39,7 @@
         <span class="span2"></span>
       </div>
     </div>
+
     <router-view/>
 
     <div class="footer">
@@ -63,11 +64,13 @@
   }
 
   .header {
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: #e5f4f9;
     height: 85px;
+    z-index: 9999;
   }
 
   .contact-data {
@@ -164,6 +167,7 @@
     display: flex;
     flex: 1 0 auto;
     background-color: white;
+    margin-top: 85px;
   }
 
   .footer {
