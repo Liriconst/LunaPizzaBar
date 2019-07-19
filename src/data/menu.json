@@ -116,28 +116,28 @@
     },
     {
       "title": "Теплый со свининой",
-      "image": "/static/svg/menu/ImgNotFound.svg",
+      "image": "/static/svg/ImgNotFound.svg",
       "price": "260.00",
       "description": "микс из листьев салата, свинина, томаты черри, огурец мар.,перец, морковь, лук, майонез",
       "mass": "230"
     },
     {
       "title": "Теплый с куриной грудкой",
-      "image": "/static/svg/menu/ImgNotFound.svg",
+      "image": "/static/svg/ImgNotFound.svg",
       "price": "260.00",
       "description": "микс из листьев салата,филе куры, томаты черри, огурец мар.,перец, морковь, лук, майонез",
       "mass": "230"
     },
     {
       "title": "Цезарь с курицей",
-      "image": "/static/svg/menu/ImgNotFound.svg",
+      "image": "/static/svg/ImgNotFound.svg",
       "price": "230.00",
       "description": "салат Айсберг, томаты, филе куры, яйцо, сыр Пармезан, сухарики, соус Цезарь",
       "mass": "230"
     },
     {
       "title": "Цезарь с креветками",
-      "image": "/static/svg/menu/ImgNotFound.svg",
+      "image": "/static/svg/ImgNotFound.svg",
       "price": "270.00",
       "description": "салат Айсберг, томаты, креветки, яйцо, сыр Пармезан, сухарики, соус Цезарь",
       "mass": "230"

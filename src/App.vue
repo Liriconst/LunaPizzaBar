@@ -68,7 +68,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #e5f4f9;
+    background-color: white;
     height: 85px;
     z-index: 9999;
   }
