@@ -1,0 +1,83 @@
+{
+  "simple": [
+    {
+      "title": "Четыре континента",
+      "image": "/static/img/pizza/new 4 kontenenta.jpg",
+      "description": "\"по-немецки\", \"гавайская\", \"венеция\", \"москвичка\"",
+      "sizes": [
+        {
+          "name": "большая",
+          "price": "470.00"
+        }
+      ]
+    },
+    {
+      "title": "Маргарита",
+      "image": "/static/img/pizza/new Margapita.jpg",
+      "description": "пицца-соус, томаты, зелень, сыр \"Моцарелла\"",
+      "sizes": [
+        {
+          "name": "большая",
+          "price": "350.00"
+        }
+      ]
+    },
+    {
+      "title": "Императорская",
+      "image": "/static/img/pizza/new imperat.jpg",
+      "description": "пицца-соус, кальмар, мидии, креветки, королевские креветки, зелень, сыр \"Моцарелла\"",
+      "sizes": [
+        {
+          "name": "большая",
+          "price": "580.00"
+        }
+      ]
+    },
+    {
+      "title": "С тунцом",
+      "image": "/static/img/pizza/new S Tunshom.jpg",
+      "description": "пицца-соус, конс.тунец, оливки, лук, зелень, сыр \"Пармезан\" сыр \"Моцарелла\"",
+      "sizes": [
+        {
+          "name": "большая",
+          "price": "400.00"
+        }
+      ]
+    },
+    {
+      "title": "Татьяна",
+      "image": "/static/img/pizza/newTatyna.jpg",
+      "description": "шпинат, перец мар., грудинка, кедр.орехи, яйцо, зелень, сыр \"Моцарелла\"",
+      "sizes": [
+        {
+          "name": "большая",
+          "price": "450.00"
+        }
+      ]
+    }
+  ],
+  "thin": [
+
+  ],
+  "thick": [
+    {
+      "title": "Фетучини",
+      "image": "/static/img/pizza/new Fetuchini.jpg",
+      "description": "пицца-соус сливочный, ветчина, шампиньоны, лук, зелень, сыр \"Моцарелла\"",
+      "sizes": [
+        {
+          "name": "малая",
+          "price": "230.00"
+        },
+        {
+          "name": "средняя",
+          "price": "340.00"
+        },
+        {
+          "name": "большая",
+          "price": "450.00"
+        }
+      ]
+    }
+  ]
+}

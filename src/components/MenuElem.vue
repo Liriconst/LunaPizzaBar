@@ -7,9 +7,18 @@
             <div class="menu-elem-title">
                 {{ name }}
             </div>
-            <div class="menu-elem-price">
+
+            <div v-if="sizes.length === 0" class="menu-elem-price">
                 {{ price }} руб. &mdash; {{ mass }} гр.
             </div>
+
+            <div v-else class="menu-elem-sizes">
+                <div v-for="size in sizes" :key="name + size.name" class="menu-elem-size">
+                    <p>{{ size.name }}</p>
+                    <p>{{ size.price }} руб.</p>
+                </div>
+            </div>
+
             <div class="menu-elem-desc">
                 <slot></slot>
             </div>
@@ -39,6 +48,10 @@
                 type: String,
                 default: "",
                 required: true
+            },
+            sizes: {
+                type: Array,
+                default: () => []
             }
         }
     }
@@ -74,8 +87,19 @@
         color: black;
     }
 
-    .menu-elem-price, .menu-elem-desc {
+    .menu-elem-price, .menu-elem-sizes, .menu-elem-desc {
         margin-top: 20px;
+    }
+
+    .menu-elem-sizes {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .menu-elem-sizes p:nth-child(2) {
+        margin-top: 10px;
+        font-weight: bold;
     }
 
     .menu-elem-desc {

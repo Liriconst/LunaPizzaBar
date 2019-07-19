@@ -3,6 +3,7 @@ import Router   from 'vue-router'
 import Main     from './views/Main.vue'
 import Menu     from './views/Menu.vue'
 import Contacts from './views/Contacts.vue'
+import Pizza    from "./views/Pizza.vue";
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/menu',
       name: 'menu',
       component: Menu
+    },
+    {
+      path: '/pizza',
+      name: 'pizza',
+      component: Pizza
     },
     {
         path: '/contacts',
