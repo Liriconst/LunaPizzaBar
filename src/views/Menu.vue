@@ -8,6 +8,8 @@
 
       <menu-section name="Холодные закуски" :data="data.cold" />
 
+      <menu-section name="Салаты" :data="data.salads" />
+
       <menu-section name="Первые блюда" :data="data.first" />
 
       <menu-section name="Вторые блюда" :data="data.second" />
