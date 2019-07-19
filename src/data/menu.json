@@ -72,5 +72,32 @@
       "description": "свежие томаты, перец, огурец, зелень",
       "mass": "330"
     }
+  ],
+  "first": [
+    {
+      "title": "Овощное ассорти",
+      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "price": "220.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "330"
+    }
+  ],
+  "second": [
+    {
+      "title": "Овощное ассорти",
+      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "price": "220.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "330"
+    }
+  ],
+  "side": [
+    {
+      "title": "Овощное ассорти",
+      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "price": "220.00",
+      "description": "свежие томаты, перец, огурец, зелень",
+      "mass": "330"
+    }
   ]
 }
