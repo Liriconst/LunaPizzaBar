@@ -132,6 +132,7 @@
     width: 20%;
     height: 100%;
   }
+
   .toolbar a {
     display: flex;
     justify-content: center;
