@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="contacts-time-img">
-        <img class="logo" src="/static/img/hall.jpg">
+        <img class="logo" src="/static/img/menus.png">
       </div>
     </div>
   </div>
