@@ -13,6 +13,7 @@
                            :price="d.price"
                            :img="d.image"
                            :mass="d.mass"
+                           :sizes="d.sizes"
                 >
                     {{ d.description }}
                 </menu-elem>

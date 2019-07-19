@@ -30,6 +30,10 @@
         </div>
         <span class="span2"></span>
         <div class="toolbar-blocks">
+          <router-link to="/pizza">ПИЦЦЫ</router-link>
+        </div>
+        <span class="span2"></span>
+        <div class="toolbar-blocks">
           <router-link to="/contacts">КОНТАКТЫ</router-link>
         </div>
         <span class="span2"></span>
