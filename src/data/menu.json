@@ -175,20 +175,125 @@
   ],
   "second": [
     {
-      "title": "Овощное ассорти",
-      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
-      "price": "220.00",
-      "description": "свежие томаты, перец, огурец, зелень",
-      "mass": "330"
+      "title": "Лазанья",
+      "image": "/static/img/menu/Lazanij.jpg",
+      "price": "400.00",
+      "description": "филе куры с грибами под соусом Бешамель",
+      "mass": "450"
+    },
+    {
+      "title": "Фарфалле",
+      "image": "/static/img/menu/Farfale.jpg",
+      "price": "320.00",
+      "description": "паста Divella с филе куры шампиньонами в сливочном соусе",
+      "mass": "1/200/275"
+    },
+    {
+      "title": "Татьятелли с грибами",
+      "image": "/static/svg/ImgNotFound.svg",
+      "price": "290.00",
+      "description": "паста Divella с шампиньонами в сливочном соусе",
+      "mass": "1/200/180"
+    },
+    {
+      "title": "Медальон с ананасом",
+      "image": "/static/img/menu/Mijco c ananacom.jpg",
+      "price": "290.00",
+      "description": "свинина запеченная с ананасом",
+      "mass": "1/240/60"
+    },
+    {
+      "title": "Мясо по - француски",
+      "image": "/static/img/menu/Mijco po franzuzku.jpg",
+      "price": "290.00",
+      "description": "свинная вырезка, лук, сыр, грибы, майонез",
+      "mass": "1/200/60"
+    },
+    {
+      "title": "Лесной пенёк",
+      "image": "/static/img/menu/Lecnoi penek.jpg",
+      "price": "280.00",
+      "description": "филе куры запечёное с грибами",
+      "mass": "1/190/60"
+    },
+    {
+      "title": "Красная шапочка",
+      "image": "/static/img/menu/Kr. chapka.jpg",
+      "price": "280.00",
+      "description": "филе куры запечёное с томатами",
+      "mass": "1/190/60"
+    },
+    {
+      "title": "Судак жареный",
+      "image": "/static/img/menu/Cydak zar..jpg",
+      "price": "370.00",
+      "description": "филе судака обжареное в масле",
+      "mass": "1/170/60"
+    },
+    {
+      "title": "Сёмга на пару",
+      "image": "/static/img/menu/Cemga na paru.jpg",
+      "price": "400.00",
+      "description": "",
+      "mass": "1/200/60"
+    },
+    {
+      "title": "Сёмга на пару с овощами",
+      "image": "/static/img/menu/Cem.ovochi.jpg",
+      "price": "430.00",
+      "description": "",
+      "mass": "1/200/200"
+    },
+    {
+      "title": "Жульен с курой и грибами",
+      "image": "/static/img/menu/Jylien.jpg",
+      "price": "290.00",
+      "description": "",
+      "mass": "200"
     }
   ],
   "side": [
     {
-      "title": "Овощное ассорти",
-      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
-      "price": "220.00",
-      "description": "свежие томаты, перец, огурец, зелень",
-      "mass": "330"
+      "title": "Ризотто",
+      "image": "/static/img/menu/Rizotto.jpg",
+      "price": "90.00",
+      "description": "рис припущенный с овощами",
+      "mass": "150"
+    },
+    {
+      "title": "Картофель отварной",
+      "image": "/static/img/menu/kar.otvarnoi.jpg",
+      "price": "90.00",
+      "description": "свежий картофель с маслом и зеленью",
+      "mass": "150"
+    },
+    {
+      "title": "Картофель по-деревенски",
+      "image": "/static/img/menu/Po derevencki.jpg",
+      "price": "90.00",
+      "description": "свежий картофель запеченный с чесноком",
+      "mass": "150"
+    },
+    {
+      "title": "Картофель фри",
+      "image": "/static/img/menu/FRI.jpg",
+      "price": "90.00",
+      "description": "свежий картофель во фритюре",
+      "mass": "150"
+    },
+    {
+      "title": "Картофельные дольки",
+      "image": "/static/img/menu/Dolki.jpg",
+      "price": "90.00",
+      "description": "картофельные дольки во фритюре",
+      "mass": "150"
+    },
+    {
+      "title": "Овощи на пару",
+      "image": "/static/img/menu/Ovochi na paru.jpg",
+      "price": "90.00",
+      "description": "",
+      "mass": "150"
     }
   ]
 }
