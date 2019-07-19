@@ -66,20 +66,111 @@
   ],
   "salads": [
     {
-      "title": "Овощное ассорти",
-      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
+      "title": "Греческий",
+      "image": "/static/img/menu/Calat Grecheckii.jpg",
       "price": "220.00",
-      "description": "свежие томаты, перец, огурец, зелень",
-      "mass": "330"
+      "description": "томаты, перец, огурец, брынза, маслины, соевый соус",
+      "mass": "210"
+    },
+    {
+      "title": "Коктейль с ветчиной",
+      "image": "/static/img/menu/Koktel c vetchinoi.jpg",
+      "price": "230.00",
+      "description": "ветчина, сыр, огурец, перец, томаты, яйцо, майонез",
+      "mass": "220"
+    },
+    {
+      "title": "Золотой гребешок",
+      "image": "/static/img/menu/Zolotoi grebechok.jpg",
+      "price": "230.00",
+      "description": "свежие томаты, перец, огурец, зеленьфиле куры, морковь, горошек зеленый, опята марин., огурцы марин., майонез",
+      "mass": "200"
+    },
+    {
+      "title": "Онежский",
+      "image": "/static/img/menu/Onezckii.jpg",
+      "price": "250.00",
+      "description": "филе куры, язык, опята марин., огурцы марин., яйцо, горчица, майонез",
+      "mass": "200"
+    },
+    {
+      "title": "Пикантный",
+      "image": "/static/img/menu/Pikantnii.jpg",
+      "price": "230.00",
+      "description": "язык, перец, огурцы марин., лук, яйцо, горчица, масло",
+      "mass": "210"
+    },
+    {
+      "title": "Искушение",
+      "image": "/static/img/menu/Ickychenie.jpg",
+      "price": "230.00",
+      "description": "филе кальмара, яйцо, ананасы, кукуруза, майонез",
+      "mass": "200"
+    },
+    {
+      "title": "Морской прибой",
+      "image": "/static/img/menu/Morckoi priboi.jpg",
+      "price": "260.00",
+      "description": "креветки, рисовая лапша, кедровые орехи, перец, соль морская, соевый соус, масло",
+      "mass": "200"
+    },
+    {
+      "title": "Теплый со свининой",
+      "image": "/static/svg/menu/ImgNotFound.svg",
+      "price": "260.00",
+      "description": "микс из листьев салата, свинина, томаты черри, огурец мар.,перец, морковь, лук, майонез",
+      "mass": "230"
+    },
+    {
+      "title": "Теплый с куриной грудкой",
+      "image": "/static/svg/menu/ImgNotFound.svg",
+      "price": "260.00",
+      "description": "микс из листьев салата,филе куры, томаты черри, огурец мар.,перец, морковь, лук, майонез",
+      "mass": "230"
+    },
+    {
+      "title": "Цезарь с курицей",
+      "image": "/static/svg/menu/ImgNotFound.svg",
+      "price": "230.00",
+      "description": "салат Айсберг, томаты, филе куры, яйцо, сыр Пармезан, сухарики, соус Цезарь",
+      "mass": "230"
+    },
+    {
+      "title": "Цезарь с креветками",
+      "image": "/static/svg/menu/ImgNotFound.svg",
+      "price": "270.00",
+      "description": "салат Айсберг, томаты, креветки, яйцо, сыр Пармезан, сухарики, соус Цезарь",
+      "mass": "230"
     }
   ],
   "first": [
     {
-      "title": "Овощное ассорти",
-      "image": "/static/img/menu/Accorti ojvochnoe.jpg",
-      "price": "220.00",
-      "description": "свежие томаты, перец, огурец, зелень",
+      "title": "Бульон куриный с зеленью",
+      "image": "/static/img/menu/Kyr bulion.jpg",
+      "price": "110.00",
+      "description": "",
+      "mass": "300"
+    },
+    {
+      "title": "Солянка сборная мясная",
+      "image": "/static/img/menu/Coljnka.jpg",
+      "price": "170.00",
+      "description": "",
       "mass": "330"
+    },
+    {
+      "title": "Суп-пюре с сыром",
+      "image": "/static/img/menu/Cyrnyi cyp.jpg",
+      "price": "250.00",
+      "description": "",
+      "mass": "150"
+    },
+    {
+      "title": "Суп-пюре из лесных грибов с гренками",
+      "image": "/static/img/menu/Gribnoi cyp.jpg",
+      "price": "250.00",
+      "description": "",
+      "mass": "150"
     }
   ],
   "second": [
