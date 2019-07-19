@@ -17,11 +17,6 @@ export default new Router({
 
   routes: [
     {
-      path: '/',
-      name: 'main',
-      component: Main
-    },
-    {
       path: '/menu',
       name: 'menu',
       component: Menu
@@ -35,6 +30,11 @@ export default new Router({
         path: '/contacts',
         name: 'contacts',
         component: Contacts
-    }
+    },
+    {
+      path: '*',
+      name: 'main',
+      component: Main
+    },
   ]
 })
