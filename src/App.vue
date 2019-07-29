@@ -38,15 +38,36 @@
         </div>
         <span class="span2"></span>
       </div>
+      <div id="example-1">
+
+        <button v-on:click="extended = !extended">+1</button>
+
+        <p v-if="extended">Кнопка выше была нажата раз</p>
+
+      </div>
     </div>
 
-    <router-view/>
+    <router-view />
 
     <div class="footer">
       <p>Пицца-бар "Луна" © 2019</p>
     </div>
   </div>
 </template>
+
+<script>
+
+  export default {
+
+      data() {
+          return {
+              extended: false
+          };
+      }
+
+  };
+
+</script>
 
 <style>
   html, body, #app {
