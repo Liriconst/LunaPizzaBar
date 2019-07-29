@@ -14,9 +14,17 @@
           <img class="contact-img" src="/static/svg/telephone.svg">
           <p>2-88-55, +7 (921) 920-00-25, +7 (911) 006-00-25</p>
         </div>
-        <div class="contact-blocks">
+        <div class="contact-blocks2">
           <img class="contact-img" src="/static/svg/information.svg">
           <p>Вс-Чт: с 11:00 до 01:00, Пт-Сб и Праздники: с 11:00 до 02:00</p>
+        </div>
+        <div class="contact-blocks3">
+          <img class="contact-img" src="/static/svg/information.svg">
+          <p>Вс-Чт: с 11:00 до 01:00</p>
+        </div>
+        <div class="contact-blocks3">
+          <img class="contact-img" src="/static/svg/information.svg">
+          <p>Пт-Сб и Праздники: с 11:00 до 02:00</p>
         </div>
       </div>
       <span class="span3"></span>
@@ -40,8 +48,7 @@
         <span class="span2"></span>
       </div>
       <div class="menu">
-        <button class="menu-button" @click="expanded = !expanded"><img alt="" class="menu-img" src="/static/svg/menu.svg"></button>
-        <p v-if="expanded">Йа открылсо</p>
+        <button class="menu-button" @click="expanded = !expanded"  @mouseover="active = true" @mouseleave="active = false"><img alt="" class="menu-img" :src="ChangeSvg"></button>
       </div>
     </div>
 
@@ -57,8 +64,15 @@
   export default {
       data() {
           return {
-              expanded: false
+              expanded: false,
+              active: false
           }
+      },
+
+      computed: {
+        ChangeSvg() {
+            return this.expanded || this.active ? "/static/svg/menu.svg" : "/static/svg/menu2.svg";
+        }
       }
   }
 </script>
@@ -72,6 +86,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
 
   .span {
     border: 0.5px solid #d3d4d6;
@@ -90,12 +106,7 @@
   }
 
   .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 5px 0 5px;
-    border-bottom: 3px solid #4abbd5;
-    width: 5%;
+    display: none;
   }
 
   .menu-img {
@@ -140,6 +151,22 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+  }
+
+  .contact-blocks2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .contact-blocks2 p {
+    padding-left: 15px;
+  }
+
+  .contact-blocks3 {
+    display: none;
   }
 
   .contact-blocks p {
@@ -237,6 +264,17 @@
   }
 
   @media (max-width: 1200px) {
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px 0 5px;
+      border-bottom: 3px solid #4abbd5;
+      width: 5%;
+      min-width: 75px;
+      max-width: 85px;
+    }
+
     .logo-data {
       width: 25%;
     }
@@ -255,8 +293,50 @@
 
     .contact-data {
       position: relative;
-      width: 75%;
+      width: 70%;
       padding-left: 3%;
+    }
+
+    @media (max-width: 700px) {
+      .contact-data {
+        font-size: 12px;
+        padding-left: 20px;
+      }
+
+      .contact-blocks p {
+        padding-left: 10px;
+      }
+
+      .contact-blocks2 {
+        display: none;
+      }
+
+      .contact-blocks3 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .contact-blocks3 p {
+        padding-left: 10px;
+      }
+
+      @media (max-width: 540px) {
+        .contact-data {
+          font-size: 10px;
+          padding-left: 15px;
+        }
+
+        .contact-blocks p {
+          padding-left: 5px;
+        }
+
+        .contact-blocks3 p {
+          padding-left: 5px;
+        }
+      }
     }
   }
 
