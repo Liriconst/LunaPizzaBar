@@ -19,6 +19,7 @@
           <p>Вс-Чт: с 11:00 до 01:00, Пт-Сб и Праздники: с 11:00 до 02:00</p>
         </div>
       </div>
+      <span class="span3"></span>
       <div class="toolbar">
         <span class="span2"></span>
         <div class="toolbar-blocks">
@@ -38,6 +39,10 @@
         </div>
         <span class="span2"></span>
       </div>
+      <div class="menu">
+        <button class="menu-button" @click="expanded = !expanded"><img alt="" class="menu-img" src="/static/svg/menu.svg"></button>
+        <p v-if="expanded">Йа открылсо</p>
+      </div>
     </div>
 
     <router-view/>
@@ -47,6 +52,16 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+      data() {
+          return {
+              expanded: false
+          }
+      }
+  }
+</script>
 
 <style>
   html, body, #app {
@@ -63,9 +78,39 @@
     margin: 5px 0;
   }
 
-  .header {
-    position: fixed;
+  .span2 {
+    border: 0.5px solid #d3d4d6;
+    height: 90%;
+  }
+
+  .span3 {
+    display: none;
+    border: 0.5px solid #d3d4d6;
+    height: 90%;
+  }
+
+  .menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    border-bottom: 3px solid #4abbd5;
+    width: 5%;
+  }
+
+  .menu-img {
+    width: 35px;
+  }
+
+  .menu-button {
+    background: none;
+    outline: none;
+    border: 0;
+  }
+
+  .header {
+    display: flex;
+    position: fixed;
     flex-direction: row;
     width: 100%;
     background-color: white;
@@ -76,7 +121,7 @@
   .contact-data {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     width: 40%;
     padding-left: 50px;
@@ -105,23 +150,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 15%;
     border-bottom: 3px solid #4abbd5;
     margin: 0 5px;
   }
 
   .logo-data a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 95%;
+    position: relative;
   }
 
   .logo {
     max-height: 95%;
-  }
-
-  .span2 {
-    border: 0.5px solid #d3d4d6;
-    height: 90%;
   }
 
   .toolbar {
@@ -191,6 +236,30 @@
     color: #2c3e50;
   }
 
+  @media (max-width: 1200px) {
+    .logo-data {
+      width: 25%;
+    }
+
+    .toolbar {
+      display: none;
+    }
+
+    .span2 {
+      display: none;
+    }
+
+    .span3 {
+      display: inline;
+    }
+
+    .contact-data {
+      position: relative;
+      width: 75%;
+      padding-left: 3%;
+    }
+  }
+
   @font-face {
     font-family: 'Roboto Slab Thin';
     src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'),
@@ -255,4 +324,3 @@
     url('/static/fonts/opensansbold.ttf') format('truetype');
   }
 </style>
-
