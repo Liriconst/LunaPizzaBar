@@ -34,7 +34,7 @@
                 <div class="address-info-2">
                     <p>г. Сосновый Бор, ул. Молодежная 48А</p>
                 </div>
-                <span class="span3"></span>
+                <span class="span4"></span>
                 <div class="address-info-1">
                     <p>Телефоны</p>
                 </div>
@@ -60,7 +60,7 @@
         flex-direction: column;
     }
 
-    .span3 {
+    .span4 {
         display: block;
         padding: 15px 0;
     }

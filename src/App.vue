@@ -51,7 +51,15 @@
         <button class="menu-button" @click="expanded = !expanded"  @mouseover="active = true" @mouseleave="active = false"><img alt="" class="menu-img" :src="ChangeSvg"></button>
       </div>
     </div>
-
+    <div class="list">
+      <div :class="ChangeClass">
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+      </div>
+    </div>
     <router-view/>
 
     <div class="footer">
@@ -72,6 +80,10 @@
       computed: {
         ChangeSvg() {
             return this.expanded || this.active ? "/static/svg/menu.svg" : "/static/svg/menu2.svg";
+        },
+
+        ChangeClass() {
+            return this.expanded ? "list-blocks1" : "list-blocks2";
         }
       }
   }
@@ -87,7 +99,28 @@
     box-sizing: border-box;
   }
 
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
 
+  .list-blocks1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    position: fixed;
+    margin-top: 85px;
+    z-index: 9999;
+  }
+
+  .list-blocks2 {
+    display: none;
+  }
 
   .span {
     border: 0.5px solid #d3d4d6;
