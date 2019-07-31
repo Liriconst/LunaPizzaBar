@@ -54,19 +54,19 @@
     <div class="list">
       <div :class="ChangeClass">
         <div class="list-blocks1-elements">
-          <router-link to="/">ГЛАВНАЯ</router-link>
+          <router-link to="/"><span @click="expanded = !expanded">ГЛАВНАЯ</span></router-link>
         </div>
         <span class="span4"></span>
         <div class="list-blocks1-elements">
-          <router-link to="/menu.html">МЕНЮ</router-link>
+          <router-link to="/menu.html"><span @click="expanded = !expanded">МЕНЮ</span></router-link>
         </div>
         <span class="span4"></span>
         <div class="list-blocks1-elements">
-          <router-link to="/pizza.html">ПИЦЦА</router-link>
+          <router-link to="/pizza.html"><span @click="expanded = !expanded">ПИЦЦА</span></router-link>
         </div>
         <span class="span4"></span>
         <div class="list-blocks1-elements">
-          <router-link to="/contacts.html">КОНТАКТЫ</router-link>
+          <router-link to="/contacts.html"><span @click="expanded = !expanded">КОНТАКТЫ</span></router-link>
         </div>
       </div>
     </div>

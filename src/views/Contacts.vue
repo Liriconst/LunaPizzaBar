@@ -22,8 +22,30 @@
                 </div>
             </div>
             <div class="contacts-time-img">
-                <img class="logo" src="/static/img/hall.jpg">
+                <img class="contacts-time-img-add" src="/static/img/hall.jpg">
             </div>
+        </div>
+        <div class="contacts-time-2">
+            <div class="contacts-info-1-add">
+                <p>Время Работы</p>
+            </div>
+            <div class="contacts-img-2">
+                <img class="contacts-img-2-logo" src="/static/img/hall.png">
+            </div>
+            <div class="contacts-time-info-2">
+                <p>C Воскресенья по Четверг</p>
+            </div>
+            <div class="contacts-time-info-3">
+                <p>11:00 - 01:00</p>
+            </div>
+            <div class="contacts-time-info-2">
+                <p>Пятница, Суббота и Праздники</p>
+            </div>
+            <div class="contacts-time-info-3">
+                <p>11:00 - 02:00</p>
+            </div>
+            <span class="span7"></span>
+            <span class="span4"></span>
         </div>
         <div class="contacts-address">
             <div id="ymap"></div>
@@ -34,7 +56,7 @@
                 <div class="address-info-2">
                     <p>г. Сосновый Бор, ул. Молодежная 48А</p>
                 </div>
-                <span class="span4"></span>
+                <span class="span2"></span>
                 <div class="address-info-1">
                     <p>Телефоны</p>
                 </div>
@@ -55,14 +77,45 @@
 <style scoped>
     .contacts {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
+    .contacts-img-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contacts-img-2-logo {
+        position: relative;
+        width: 100%;
+    }
+
+    .contacts-info-1-add {
+        font-family: 'Roboto Slab';
+        font-size: 36px;
+        color: black;
+        padding: 20px 0 10px 0;
+        margin-top: 40px;
+        width: 95%;
+        border-top: 1px solid #4abbd5;
+    }
+
+    .span7 {
+        margin-top: 20px;
+        width: 95%;
+        border-bottom: 1px solid #4abbd5;
+    }
+
+    .contacts-time-2 {
+        display: none;
+    }
+
     .span4 {
-        display: block;
-        padding: 15px 0;
+        margin-top: 40px;
     }
 
     .contacts-img {
@@ -101,31 +154,33 @@
         font-family: 'Roboto Slab';
         font-size: 20px;
         color: black;
-        padding: 10px 0 10px 25%;
+        padding: 10px 0 10px 0;
     }
 
     .contacts-time-info-2 {
         font-family: 'Roboto Slab Bold';
         font-size: 16px;
         color: black;
-        padding: 10px 0 10px 25%;
+        padding: 10px 0 10px 0;
     }
 
     .contacts-time-info-3 {
         font-family: 'Roboto Slab';
         font-size: 14px;
         color: black;
-        padding: 10px 0 10px 25%;
+        padding: 10px 0 10px 0;
     }
 
     .contacts-time-img {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        height: 75%;
-        width: 50%;
+        position: relative;
     }
 
+    .contacts-time-img-add {
+        max-height: 90%;
+    }
     .contacts-address {
         display: flex;
         justify-content: flex-start;
@@ -166,6 +221,20 @@
         position: absolute;
         height: 100%;
         width: 100%;
+    }
+
+    @media(max-width: 1000px) {
+        .contacts-time {
+            display: none;
+        }
+
+        .contacts-time-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
     }
 </style>
 
