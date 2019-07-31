@@ -45,7 +45,7 @@
                 <p>11:00 - 02:00</p>
             </div>
             <span class="span7"></span>
-            <span class="span4"></span>
+            <span class="span8"></span>
         </div>
         <div class="contacts-address">
             <div id="ymap"></div>
@@ -110,12 +110,12 @@
         border-bottom: 1px solid #4abbd5;
     }
 
-    .contacts-time-2 {
-        display: none;
+    .span8 {
+        margin-top: 40px;
     }
 
-    .span4 {
-        margin-top: 40px;
+    .contacts-time-2 {
+        display: none;
     }
 
     .contacts-img {

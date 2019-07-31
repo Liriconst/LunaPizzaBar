@@ -147,7 +147,8 @@
       <div class="main-img-2-info">
         <router-link to="/menu.html">Узнать больше</router-link>
       </div>
-      <span class="span5"></span>
+      <span class="span9"></span>
+      <span class="span8"></span>
     </div>
   </div>
 </template>
@@ -169,6 +170,16 @@
 
   .span5 {
     margin-bottom: 20px;
+  }
+
+  .span9 {
+    margin-top: 40px;
+    width: 95%;
+    border-bottom: 1px solid #4abbd5;
+  }
+
+  .span8 {
+    margin-top: 40px;
   }
 
   .main-img-2 {
