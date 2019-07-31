@@ -53,11 +53,21 @@
     </div>
     <div class="list">
       <div :class="ChangeClass">
-        <p>123</p>
-        <p>123</p>
-        <p>123</p>
-        <p>123</p>
-        <p>123</p>
+        <div class="list-blocks1-elements">
+          <router-link to="/">ГЛАВНАЯ</router-link>
+        </div>
+        <span class="span4"></span>
+        <div class="list-blocks1-elements">
+          <router-link to="/menu.html">МЕНЮ</router-link>
+        </div>
+        <span class="span4"></span>
+        <div class="list-blocks1-elements">
+          <router-link to="/pizza.html">ПИЦЦА</router-link>
+        </div>
+        <span class="span4"></span>
+        <div class="list-blocks1-elements">
+          <router-link to="/contacts.html">КОНТАКТЫ</router-link>
+        </div>
       </div>
     </div>
     <router-view/>
@@ -118,6 +128,50 @@
     z-index: 9999;
   }
 
+  .list-blocks1-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    width: 100%;
+    transition: .3s;
+  }
+
+  .list-blocks1-elements a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #2d2e30;
+    text-decoration: unset;
+    height: 100%;
+    width: 100%;
+    padding: 0 2em;
+    transition: .3s;
+  }
+
+  .list-blocks1-elements :hover {
+    background: #4abbd5;
+    color: white;
+    transition: .3s;
+  }
+
+  .list-blocks1-elements a:hover {
+    color: white;
+    transition: .5s;
+  }
+  .list-blocks1-elements router-link-exact-active:hover {
+     background: white;
+    transition: .3s;
+  }
+
+  .list-blocks1-elements a.router-link-exact-active {
+    background: white;
+    color: #4abbd5;
+    transition: .3s;
+  }
+
   .list-blocks2 {
     display: none;
   }
@@ -136,6 +190,12 @@
     display: none;
     border: 0.5px solid #d3d4d6;
     height: 90%;
+  }
+
+  .span4 {
+    border-top: 0.5px solid #d3d4d6;
+    border-bottom: 0.5px solid #d3d4d6;
+    width: 90%;
   }
 
   .menu {
@@ -368,6 +428,20 @@
 
         .contact-blocks3 p {
           padding-left: 5px;
+        }
+
+        .list {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-start;
+        }
+
+        .list-blocks1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vh;
         }
       }
     }

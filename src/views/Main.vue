@@ -82,10 +82,21 @@
         <img class="logo" src="/static/img/menus.png">
       </div>
     </div>
+    <div class="pizzas-info-1">
+      <p>О нас</p>
+    </div>
+    <div class="main-img">
+      <img class="main-img-logo" src="/static/img/hall.jpg">
+    </div>
+
   </div>
 </template>
 
 <style>
+
+  .main-h1 {
+
+  }
 
   .main-about-info-3 {
     display: flex;
@@ -224,5 +235,16 @@
     align-items: center;
     height: 75%;
     width: 50%;
+  }
+
+  .main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-img-logo {
+    width: 100%;
   }
 </style>
